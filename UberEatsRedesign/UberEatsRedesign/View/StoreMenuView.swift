@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StoreMenuView: View {
+    
     @State private var selectedOption: MenuBarOptions = .japanese
     @State private var currentScrolledOption: MenuBarOptions = .japanese
     
@@ -46,13 +47,12 @@ struct StoreMenuView: View {
                             
                         }
                         
-                        
                     }.padding(.horizontal)
                         .onChange(of: selectedOption) { _ in
                             withAnimation(.easeInOut){
-                                //proxy means placeholder
                                 
                                 proxy.scrollTo(selectedOption,anchor: .topTrailing)
+                                
                             }
                         }
                     

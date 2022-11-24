@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct TopBackgroundImage: View {
+    
     var body: some View {
+        
         Rectangle()
             .ignoresSafeArea(.all)
             .frame(maxHeight: 200)
@@ -19,7 +21,9 @@ struct TopBackgroundImage: View {
                     .ignoresSafeArea(.all)
                     
             }
+        
     }
+    
 }
 
 struct TopBackgroundImage_Previews: PreviewProvider {

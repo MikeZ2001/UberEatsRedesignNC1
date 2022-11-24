@@ -21,7 +21,6 @@ struct MenuOptionList: View {
             ScrollView(.horizontal,showsIndicators: false){
                 HStack(spacing: 30){
                     
-                    
                     ForEach(MenuBarOptions.allCases, id: \.self){ item in
                         
                         VStack{
@@ -29,9 +28,6 @@ struct MenuOptionList: View {
                             
                                 .foregroundColor(item == currentScrolledOption ?titleColor : .gray)
                                 
-                                
-                                
-                            
                             if currentScrolledOption == item{
                                 Capsule()
                                     .fill(titleColor)
@@ -57,7 +53,6 @@ struct MenuOptionList: View {
                         
                     }
                     
-                    
                 }
             }
             
@@ -75,6 +70,7 @@ struct MenuOptionList: View {
             return .white
         }
     }
+    
 }
 
 struct MenuOptionList_Previews: PreviewProvider {

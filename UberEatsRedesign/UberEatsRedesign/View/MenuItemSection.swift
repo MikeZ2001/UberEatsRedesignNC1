@@ -10,7 +10,6 @@ import SwiftUI
 struct MenuItemSection: View {
     
     @Environment (\.colorScheme) var colorScheme
-    
     let option: MenuBarOptions
     @Binding var currentScrolledOption: MenuBarOptions
     
@@ -49,36 +48,14 @@ struct MenuItemSection: View {
                         .cornerRadius(10)
                         .padding()
                         .overlay(alignment: .bottom){
-                            
-                            /*
-                             ZStack{
-                             RoundedRectangle(cornerRadius: 20)
-                             .background(.thickMaterial)
-                             .fill(.white)
-                             .frame(width: 80,height: 40)
-                             // .scaledToFill()
-                             Button {
-                             
-                             } label: {
-                             
-                             Text("Add")
-                             .foregroundColor(.black)
-                             Image(systemName: "cart")
-                             }
-                             
-                             }
-                             */
-                            
+                        
                             ZStack {
                                 
                                 Button(action: {
                                     
                                 }, label: {
                                     
-                                    
                                     Image(systemName: "plus")
-                                    //.bold()
-                                    // .font(.subheadline)
                                         .frame(minWidth: 60, minHeight: 25)
                                         .background(.thickMaterial)
                                         .foregroundColor(titleColor)
@@ -98,10 +75,8 @@ struct MenuItemSection: View {
                     
                 )
                 
-                
                 Divider()
                     .overlay(titleColor)
-                
                 
             }
         }
@@ -131,7 +106,6 @@ struct MenuItemSection: View {
             return .white
         }
     }
-    
     
 }
 

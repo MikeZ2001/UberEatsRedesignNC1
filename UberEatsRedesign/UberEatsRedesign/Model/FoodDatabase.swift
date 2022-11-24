@@ -17,15 +17,15 @@ var japaneseFood: [FoodProduct] = [
 
 var americanFood: [FoodProduct] = [
     .init(title: "Steak", description: "Grass fed beef cooked to absolute perfection. Literally melts in your mouth", imageName: "steak-house" , price: "$24"),
-          
+    
         .init(title: "Cheeseburger", description: "Let's just say this is an upgrade from McDonalds. Try it and see for yourself", imageName:
-              "american-cheeseburger" , price: "$14"),
-          
-        .init(title: "Philly Cheesesteak", description: "Simply put, this will just make you happy. Shredded beef, onions, peppers, and cheese on a hoagie",imageName:"american-cheesesteak" ,price: "$30")]
-        
-          
+                "american-cheeseburger" , price: "$14"),
+    
+            .init(title: "Philly Cheesesteak", description: "Simply put, this will just make you happy. Shredded beef, onions, peppers, and cheese on a hoagie",imageName:"american-cheesesteak" ,price: "$30")]
+
+
 var italianFood: [FoodProduct] = [
-            .init(title: "Pizza", description: "Our handmade brick oven pizza. Topped with our famous cheese blend, basil, and tomatoes", imageName: "italian-pizza" , price: "$24"),
-                  
-                .init(title: "Carbonara", description: "There's pasta, and then theres pasta. If you don't know the difference, try this." , imageName:
-                      "italian-pasta" , price: "$24")]
+    .init(title: "Pizza", description: "Our handmade brick oven pizza. Topped with our famous cheese blend, basil, and tomatoes", imageName: "italian-pizza" , price: "$24"),
+    
+        .init(title: "Carbonara", description: "There's pasta, and then theres pasta. If you don't know the difference, try this." , imageName:
+                "italian-pasta" , price: "$24")]

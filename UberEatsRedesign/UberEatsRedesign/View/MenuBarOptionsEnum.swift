@@ -13,7 +13,6 @@ enum MenuBarOptions: Int, CaseIterable{
     case italian
     case promo 
     
-    
     var menuBarTitle:String{
         switch self{
         case .japanese: return "Japanese"
@@ -35,4 +34,5 @@ enum MenuBarOptions: Int, CaseIterable{
             return americanFood + italianFood
         }
     }
+    
 }

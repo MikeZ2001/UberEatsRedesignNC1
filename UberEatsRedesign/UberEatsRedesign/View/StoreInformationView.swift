@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StoreInformationView: View {
+    
     var body: some View {
         
         VStack (alignment: .leading, spacing: 8) {
@@ -28,13 +29,10 @@ struct StoreInformationView: View {
                     .font(.caption)
                     .foregroundColor(.gray)
                 
-                
-                
                 Image(systemName: "location")
                 Text("0.5km")
                     .font(.caption)
                     .foregroundColor(.gray)
-                
                 
                 Image(systemName: "clock")
                 Text("25m")

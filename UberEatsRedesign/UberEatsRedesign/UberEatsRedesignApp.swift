@@ -11,9 +11,9 @@ import SwiftUI
 struct UberEatsRedesignApp: App {
     var body: some Scene {
         WindowGroup {
-           //MainView()
             
             StoreMenuView()
+            
         }
     }
 }

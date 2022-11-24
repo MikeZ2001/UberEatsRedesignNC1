@@ -24,7 +24,6 @@
 		040C98A229257438003C727B /* OffsetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C98A129257438003C727B /* OffsetModifier.swift */; };
 		0423915029268FE4001FDDF4 /* TopBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423914F29268FE4001FDDF4 /* TopBackgroundImage.swift */; };
 		04239152292691C4001FDDF4 /* StoreInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04239151292691C4001FDDF4 /* StoreInformationView.swift */; };
-		042391542926B000001FDDF4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042391532926B000001FDDF4 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		040C98A129257438003C727B /* OffsetModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetModifier.swift; sourceTree = "<group>"; };
 		0423914F29268FE4001FDDF4 /* TopBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBackgroundImage.swift; sourceTree = "<group>"; };
 		04239151292691C4001FDDF4 /* StoreInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInformationView.swift; sourceTree = "<group>"; };
-		042391532926B000001FDDF4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +152,6 @@
 		040C9898292544C2003C727B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				042391532926B000001FDDF4 /* MainView.swift */,
 				040C986829252D0E003C727B /* StoreMenuView.swift */,
 				0423914F29268FE4001FDDF4 /* TopBackgroundImage.swift */,
 				040C989229253A7E003C727B /* ToolBarView.swift */,
@@ -315,7 +312,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0423915029268FE4001FDDF4 /* TopBackgroundImage.swift in Sources */,
-				042391542926B000001FDDF4 /* MainView.swift in Sources */,
 				040C986929252D0E003C727B /* StoreMenuView.swift in Sources */,
 				040C989529253ADC003C727B /* MenuOptionList.swift in Sources */,
 				040C989D292545C5003C727B /* FoodDatabase.swift in Sources */,
