@@ -12,11 +12,7 @@ struct ToolBarView: View {
     @State var showingSearchBar = false
     var body: some View {
         //HStack of the top
-        
-        if(showingSearchBar){
-            SearchBar()
-        }
-        else{
+    
             HStack(spacing: 16){
                 
                 RoundedRectangle(cornerRadius: 20)
@@ -59,9 +55,8 @@ struct ToolBarView: View {
                             
                         }
                     )
-                
+            
             }
-        }
         
     }
     

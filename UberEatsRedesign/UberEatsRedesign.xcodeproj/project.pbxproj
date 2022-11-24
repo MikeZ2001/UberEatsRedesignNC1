@@ -25,7 +25,6 @@
 		0423915029268FE4001FDDF4 /* TopBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0423914F29268FE4001FDDF4 /* TopBackgroundImage.swift */; };
 		04239152292691C4001FDDF4 /* StoreInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04239151292691C4001FDDF4 /* StoreInformationView.swift */; };
 		042391542926B000001FDDF4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042391532926B000001FDDF4 /* MainView.swift */; };
-		0426366A292C136900CE9202 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04263669292C136900CE9202 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +66,6 @@
 		0423914F29268FE4001FDDF4 /* TopBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBackgroundImage.swift; sourceTree = "<group>"; };
 		04239151292691C4001FDDF4 /* StoreInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreInformationView.swift; sourceTree = "<group>"; };
 		042391532926B000001FDDF4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		04263669292C136900CE9202 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +161,6 @@
 				04239151292691C4001FDDF4 /* StoreInformationView.swift */,
 				040C989429253ADC003C727B /* MenuOptionList.swift */,
 				040C989629254458003C727B /* MenuItemSection.swift */,
-				04263669292C136900CE9202 /* SearchBar.swift */,
 				040C989029253091003C727B /* MenuBarOptionsEnum.swift */,
 			);
 			path = View;
@@ -324,7 +321,6 @@
 				040C989D292545C5003C727B /* FoodDatabase.swift in Sources */,
 				040C986729252D0E003C727B /* UberEatsRedesignApp.swift in Sources */,
 				040C989B29254515003C727B /* FoodProduct.swift in Sources */,
-				0426366A292C136900CE9202 /* SearchBar.swift in Sources */,
 				040C989329253A7E003C727B /* ToolBarView.swift in Sources */,
 				04239152292691C4001FDDF4 /* StoreInformationView.swift in Sources */,
 				040C98A0292573BD003C727B /* OffsetKey.swift in Sources */,

@@ -11,10 +11,6 @@ struct StoreMenuView: View {
     @State private var selectedOption: MenuBarOptions = .japanese
     @State private var currentScrolledOption: MenuBarOptions = .japanese
     
-    //@Binding var showingSheet: Bool
-    
-    @State var searchedText = ""
-    
     var body: some View {
         
         VStack {

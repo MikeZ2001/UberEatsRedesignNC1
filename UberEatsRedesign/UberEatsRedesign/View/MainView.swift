@@ -9,20 +9,12 @@ import SwiftUI
 
 struct MainView: View {
     
-    @State private var showingSheet = false
-    
     var body: some View {
         Button {
             //Action
-            showingSheet.toggle()
+            
         } label: {
             Text("Tap me")
-        }.sheet(isPresented: $showingSheet) {
-            NavigationView {
-                StoreMenuView()
-                
-            }
-            
         }
         
     }
