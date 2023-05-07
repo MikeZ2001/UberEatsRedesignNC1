@@ -13,7 +13,7 @@ The project use the following technologies:
 
 ## Project Timeline
 
-- 1 day: Understand what can be improved in the UI/UX
+- 1 day: Understand what can be improved in the UI/UX of the original app.
 - 2 days: Design and prototype the new UI/UX
 - 1 week: Develop and integrate the new features.
 
