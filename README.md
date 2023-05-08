@@ -1,6 +1,6 @@
 # UberEats Redesign Project
 
-## Redesign di UberEats
+## Redesign of UberEats
 
 This project aims to redesign the user interface and experience of the Uber Eats app.
 The redesign is intended to improve the usability and overall user satisfaction with the app.
